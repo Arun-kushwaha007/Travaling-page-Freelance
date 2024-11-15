@@ -14,7 +14,7 @@ const Home = () => {
       />
 
       {/* Text over the image */}
-      <div className="relative flex flex-col items-center justify-center h-full z-10 text-center px-4">
+      <div className="relative flex font-[Inria Sans]  flex-col items-center justify-center h-full z-10 text-center px-4"  style={{ fontFamily: "'Inria Sans', sans-serif" }} >
         <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">
           Discover Your Next Adventure
         </h1>

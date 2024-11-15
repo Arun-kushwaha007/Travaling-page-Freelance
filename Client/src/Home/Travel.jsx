@@ -5,7 +5,7 @@ import Frame2 from "../Assets/Frame2.png";
 import Frame3 from "../Assets/Frame3.png";
 import Frame4 from "../Assets/Frame4.png";
 
-const Travel = ({ tripExtras }) => {
+const Travel = () => {
   return (
     <div className="relative bg-white py-12 h-[800px] px-6">
       {/* Background Vector */}
@@ -13,23 +13,23 @@ const Travel = ({ tripExtras }) => {
 
       <div className="relative flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto z-10">
         {/* Flex container for images and text */}
-        <div className="relative flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto z-10">
+      <div className="relative flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto z-10">
           {/* Left side images */}
           <div className="flex md:w-1/2 relative space-x-4">
-            {/* Square overlapping images */}
-            <div className="relative">
-              <img
-                src={Frame2}
-                alt="Frame 2"
-                className="w-48 h-48 rounded-lg"
-              />
-              <img
-                src={Frame3}
-                alt="Frame 3"
-                className="absolute -bottom-6 -left-6 w-48 h-48 object-cover rounded-lg"
-              />
-            </div>
+          {/* Square overlapping images */}
+          <div className="relative">
+            <img
+              src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731617324/de07periscopevilla_1228938g_nqhbjr.jpg"
+              alt="Frame 2"
+              className="w-48 h-48  rounded-lg "
+            />
+            <img
+              src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618007/IMG-20241115-WA0026_mlqax8.jpg"
+              alt="Frame 3"
+              className="absolute -bottom-6 -left-6 w-48 h-48 object-cover rounded-lg "
+            />
           </div>
+        </div>
 
           {/* Text in the center */}
           <div className="mx-8 text-center md:text-left">
@@ -45,36 +45,25 @@ const Travel = ({ tripExtras }) => {
           {/* Right side images */}
           <div className="relative">
             <img
-              src={Frame1}
-              alt="Frame 1"
-              className="w-full object-cover rounded-lg"
+              src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618021/IMG-20241115-WA0056_zralxn.jpg"
+              alt="Frame 2"
+              className=" w-full object-cover rounded-lg "
             />
             <img
-              src={Frame4}
-              alt="Frame 4"
-              className="absolute -bottom-6 -right-4 w-full object-cover rounded-lg"
+              src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618040/IMG-20241115-WA0062_hhflmy.jpg"
+              alt="Frame 3"
+              className="absolute -bottom-6 -right-4 w-full  object-cover rounded-lg "
             />
           </div>
         </div>
       </div>
 
-      {/* Trip Extras Section */}
-      <div className="mt-12">
-        <h2 className="text-2xl font-semibold text-center text-gray-800">Trip Extras</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          {tripExtras.length > 0 ? (
-            tripExtras.map((extra, index) => (
-              <div key={index} className="relative bg-white border rounded-lg shadow-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-800">{extra.name}</h3>
-                <p className="text-gray-600 mt-2">{extra.description}</p>
-                <p className="text-gray-800 font-bold mt-4">Price: ${extra.price}</p>
-              </div>
-            ))
-          ) : (
-            <p className="text-center text-gray-500">Loading trip extras...</p>
-          )}
-        </div>
-      </div>
+
+
+
+      
+
+      
     </div>
   );
 };

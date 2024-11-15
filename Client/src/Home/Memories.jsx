@@ -8,7 +8,7 @@ const Memories = () => {
         <div className="leftImage flex object-cover">
           {/* Apply rounded-t-full and rounded-b-full for capsule effect */}
           <img
-            src={Image1}
+            src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618018/IMG-20241115-WA0050_eiy1ps.jpg"
             alt=""
             className="w-[220px] h-[320px]  object-cover rounded-t-full rounded-b-full"
           />
@@ -38,7 +38,7 @@ const Memories = () => {
 
         <div className="RightImage relative top-12">
           <img
-            src={Image1}
+            src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618019/IMG-20241115-WA0053_s09rj4.jpg"
             alt=""
             className="w-[220px] h-[320px] object-cover rounded-t-full rounded-b-full"
           />

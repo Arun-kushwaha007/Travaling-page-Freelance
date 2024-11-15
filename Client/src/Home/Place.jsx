@@ -25,7 +25,7 @@ const Place = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {/* First Column (One image) */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src={Image1} alt="Place 1" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
+            <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618012/IMG-20241115-WA0036_mm0vrt.jpg" alt="Place 1" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
               <div>
                 <h3 className="text-white text-xl font-bold">Rajasthan</h3>
@@ -38,7 +38,7 @@ const Place = () => {
           <div className="grid grid-rows-2 gap-4">
             {/* Top Image */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
-              <img src={Image2} alt="Place 2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618018/IMG-20241115-WA0050_eiy1ps.jpg" alt="Place 2" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                 <div>
                   <h3 className="text-white text-xl font-bold">Rajasthan</h3>
@@ -48,7 +48,7 @@ const Place = () => {
             </div>
             {/* Bottom Image */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
-              <img src={Image3} alt="Place 3" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618037/IMG-20241115-WA0059_xlcabf.jpg" alt="Place 3" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                 <div>
                   <h3 className="text-white text-xl font-bold">Rajasthan</h3>
@@ -62,7 +62,7 @@ const Place = () => {
           <div className="grid grid-rows-2 gap-4">
             {/* Top Image */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
-              <img src={Image4} alt="Place 4" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618016/IMG-20241115-WA0037_abcpur.jpg" alt="Place 4" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                 <div>
                   <h3 className="text-white text-xl font-bold">Rajasthan</h3>
@@ -72,7 +72,7 @@ const Place = () => {
             </div>
             {/* Bottom Image */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
-              <img src={Image5} alt="Place 5" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618019/IMG-20241115-WA0054_te3we1.jpg" alt="Place 5" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                 <div>
                   <h3 className="text-white text-xl font-bold">Rajasthan</h3>
@@ -84,7 +84,7 @@ const Place = () => {
 
           {/* Fourth Column (One image) */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src={Image6} alt="Place 6" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
+            <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618014/IMG-20241115-WA0042_fmebt3.jpg" alt="Place 6" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
               <div>
                 <h3 className="text-white text-xl font-bold">Rajasthan</h3>
