@@ -15,10 +15,15 @@ const Navbar = () => {
           {/* Routes */}
           <ul className="flex space-x-8 items-center text-lg">
             <li><Link to="/" className="hover:text-gray-500">Home</Link></li>
-            <li><Link to="/destination" className="hover:text-gray-500">Destination</Link></li>
+            {/* <li><Link to="/destination" className="hover:text-gray-500">Destination</Link></li>
             <li><Link to="/packages" className="hover:text-gray-500">Packages</Link></li>
             <li><Link to="/blogs" className="hover:text-gray-500">Blogs</Link></li>
-            <li><Link to="/wishlist" className="hover:text-gray-500">Wishlist</Link></li>
+            <li><Link to="/wishlist" className="hover:text-gray-500">Wishlist</Link></li> */}
+
+            <li><Link to="/" className="hover:text-gray-500">Destination</Link></li>
+            <li><Link to="/" className="hover:text-gray-500">Packages</Link></li>
+            <li><Link to="/" className="hover:text-gray-500">Blogs</Link></li>
+            <li><Link to="/" className="hover:text-gray-500">Wishlist</Link></li>
             {/* User Icon */}
             <li><FaUserCircle className="text-3xl hover:text-gray-500 cursor-pointer" /></li>
           </ul>

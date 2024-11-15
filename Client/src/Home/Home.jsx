@@ -8,7 +8,7 @@ const Home = () => {
     <div className="relative w-full h-screen">
       {/* Background Image */}
       <img 
-        src={homebg} 
+        src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731617333/steptodown.com988849_b2r1od.jpg"
         alt="Background" 
         className="absolute inset-0 w-full h-full object-cover"
       />
@@ -23,9 +23,9 @@ const Home = () => {
         </p>
 
         {/* Search Bar Section */}
-        <div className="bg-white p-4 rounded-full shadow-lg flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center w-full max-w-lg md:max-w-none">
-          {/* Location Input */}
-          <div className="flex items-center space-x-2 w-full">
+        {/* <div className="bg-white p-4 rounded-full shadow-lg flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center w-full max-w-lg md:max-w-none"> */}
+         
+          {/* <div className="flex items-center space-x-2 w-full">
             <FaSearchLocation className="text-gray-500" />
             <div className="w-full">
               <label className="block text-gray-500 text-sm">Location</label>
@@ -35,10 +35,10 @@ const Home = () => {
                 className="outline-none w-full"
               />
             </div>
-          </div>
+          </div> */}
 
-          {/* Check-in Input */}
-          <div className="flex items-center space-x-2 w-full">
+        
+          {/* <div className="flex items-center space-x-2 w-full">
             <FaCalendarAlt className="text-gray-500" />
             <div className="w-full">
               <label className="block text-gray-500 text-sm">Check in</label>
@@ -47,10 +47,10 @@ const Home = () => {
                 className="outline-none w-full" 
               />
             </div>
-          </div>
+          </div> */}
 
-          {/* Check-out Input */}
-          <div className="flex items-center space-x-2 w-full">
+ 
+          {/* <div className="flex items-center space-x-2 w-full">
             <FaCalendarAlt className="text-gray-500" />
             <div className="w-full">
               <label className="block text-gray-500 text-sm">Check out</label>
@@ -59,10 +59,10 @@ const Home = () => {
                 className="outline-none w-full" 
               />
             </div>
-          </div>
+          </div> */}
 
-          {/* Guests Input */}
-          <div className="flex items-center space-x-2 w-full">
+  
+          {/* <div className="flex items-center space-x-2 w-full">
             <FaUser className="text-gray-500" />
             <div className="w-full">
               <label className="block text-gray-500 text-sm">Guests</label>
@@ -72,17 +72,18 @@ const Home = () => {
                 className="outline-none w-full"
               />
             </div>
-          </div>
+          </div> */}
 
-          {/* Search Button */}
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-full flex items-center w-full md:w-auto">
+
+          {/* <button className="bg-blue-600 text-white px-4 py-2 rounded-full flex items-center w-full md:w-auto">
             <FaSearchLocation className="mr-2" />
             Search
-          </button>
-        </div>
+          </button> */}
+        {/* </div> */}
+        
       </div>
 
-      {/* Overlay to darken the background image */}
+      
       <div className="absolute inset-0 bg-black opacity-20"></div>
     </div>
   )
