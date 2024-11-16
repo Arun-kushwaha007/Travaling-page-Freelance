@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from "../Assets/Image1.png";
+// import Image1 from "../Assets/Image1.png";
 
 const Memories = () => {
   return (

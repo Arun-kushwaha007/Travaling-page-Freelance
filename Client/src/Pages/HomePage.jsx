@@ -4,8 +4,8 @@ import Travel from '../Home/Travel';
 import Place from '../Home/Place';
 import Memories from '../Home/Memories';
 import Explore from '../Home/Explore';
-import Testimonals from '../Home/Testimonals';
-import Blogs from '../Home/Blogs';
+// import Testimonals from '../Home/Testimonals';
+// import Blogs from '../Home/Blogs';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Home/Footer';
 

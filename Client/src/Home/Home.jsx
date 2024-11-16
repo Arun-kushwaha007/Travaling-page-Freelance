@@ -1,7 +1,7 @@
 import React from 'react';
-import homebg from "../Assets/homebg.png"; 
-import { FaSearchLocation } from 'react-icons/fa';
-import { FaCalendarAlt, FaUser } from 'react-icons/fa';
+// import homebg from "../Assets/homebg.png"; 
+// import { FaSearchLocation } from 'react-icons/fa';
+// import { FaCalendarAlt, FaUser } from 'react-icons/fa';
 
 const Home = () => {
   return (
