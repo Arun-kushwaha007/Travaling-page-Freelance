@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Image1 from "../Assets/Image1.png";
 
 const Explore = () => {
   const [trips, setTrips] = useState([]);
+  const [viewAll, setViewAll] = useState(false); // State to toggle between viewing 4 cards or all cards
+  const cardsPerPage = 4;
 
   // Fetch data from the API
   useEffect(() => {
@@ -27,32 +28,46 @@ const Explore = () => {
     fetchTrips();
   }, []);
 
+  // Get the current trips to display based on viewAll state
+  const tripsToDisplay = viewAll ? trips : trips.slice(0, cardsPerPage);
+
+  // Handle "View All" button click
+  const handleViewAllClick = () => {
+    setViewAll(!viewAll); // Toggle viewAll state
+  };
+
   return (
     <div>
-      <div className="main mt-16">
+      <div className="main m-4 pb-12 mt-16">
         {/* Header Section */}
-        <div className="top flex justify-between">
-          <h1 className="text-xl font-semibold relative left-8">Explore the Destination</h1>
-          <button className="relative right-8 border-black border border-solid p-1 rounded-md">
-            View All
+        <div className="top p-4 flex justify-between">
+          <h1 className="text-5xl font-semibold text-gray-800 relative left-20">Explore the Destination</h1>
+          <button
+            onClick={handleViewAllClick}
+            className="relative right-8 border-2 border-gray-800 p-2 rounded-lg text-gray-800 hover:bg-gray-800 hover:text-white transition duration-300"
+          >
+            {viewAll ? "View Less" : "View All"}
           </button>
         </div>
+
         {/* Cards Section */}
-        <div className="cards flex justify-evenly my-3 align-middle items-center flex-wrap">
-          {trips.length > 0 ? (
-            trips.map((trip) => (
+        <div className="cards flex justify-evenly my-3 align-middle items-center flex-wrap gap-2">
+          {tripsToDisplay.length > 0 ? (
+            tripsToDisplay.map((trip) => (
               <div
                 key={trip.id}
-                className="card flex flex-col justify-center rounded-md shadow-md max-w-[200px] object-fill hover:shadow-2xl hover:bg-gray-100 transition duration-300 ease-in-out border border-solid border-black p-2"
+                className="card flex flex-col justify-center rounded-lg shadow-lg max-w-[350px] object-fill hover:shadow-xl hover:bg-gray-50 transition duration-300 ease-in-out border border-gray-200 p-4"
               >
                 {/* Card Image */}
-                <img src={Image1} alt={trip.trip_name} className="rounded-t-md" />
+                <img src={trip.main_image} alt={trip.trip_name} className="rounded-t-lg w-full h-56 object-cover mb-4 " />
+                
                 {/* Card Text */}
-                <div className="text mx-2 flex flex-col items-start mt-2">
-                  <h1 className="font-bold text-lg">{trip.trip_name}</h1>
-                  <h3 className="text-gray-600">{trip.trip_type}</h3>
-                  <h2 className="text-blue-500 font-semibold">Rs{trip.price}/per person</h2>
-                  <button className="bg-slate-500 w-full h-11 rounded-md mt-4 text-white">
+                <div className="text flex flex-col items-start">
+                  <h1 className="font-semibold text-xl text-gray-900">{trip.trip_name}</h1>
+                  <h3 className="text-gray-600 text-sm mb-2">{trip.trip_type}</h3>
+                  <h2 className="text-blue-600 font-semibold mb-3">Rs{trip.price}/per person</h2>
+                  <p className="text-gray-700 text-sm mb-4 line-clamp-3">{trip.description}</p>
+                  <button className="bg-[#9f5a3f] w-full h-12 rounded-md text-white font-semibold hover:bg-[#874024] transition duration-300">
                     Book Now
                   </button>
                 </div>
