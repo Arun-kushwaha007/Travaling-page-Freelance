@@ -9,7 +9,7 @@ const Explore = () => {
     const fetchTrips = async () => {
       console.log("Fetching trips...");
       try {
-        const response = await fetch("/api/v1/all_trips/");
+        const response = await fetch("http://165.22.209.39:5000/api/v1/all_trips/");
         console.log("Response received:", response);
 
         if (!response.ok) {
