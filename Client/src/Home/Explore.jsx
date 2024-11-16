@@ -51,7 +51,7 @@ const Explore = () => {
                 <div className="text mx-2 flex flex-col items-start mt-2">
                   <h1 className="font-bold text-lg">{trip.trip_name}</h1>
                   <h3 className="text-gray-600">{trip.trip_type}</h3>
-                  <h2 className="text-blue-500 font-semibold">${trip.price}/per person</h2>
+                  <h2 className="text-blue-500 font-semibold">Rs{trip.price}/per person</h2>
                   <button className="bg-slate-500 w-full h-11 rounded-md mt-4 text-white">
                     Book Now
                   </button>

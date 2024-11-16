@@ -33,7 +33,7 @@ const Travel = () => {
         </div>
 
           {/* Text in the center */}
-          <div className=" text-center md:text-left w-[800px] m-16 ">
+          <div className=" text-center md:text-left w-[750px] px-7 m-16 ">
             <h2 className="text-7xl font-bold text-gray-800 ">The Perfect Travel <br /> Place for You</h2>
             <p className="text-gray-600 mt-4 text-3xl">
               Discover the untouched beauty of rural destinations, where authentic traditions, culture, and nature blend seamlessly. Immerse yourself in local experiences, far from the rush of city life, and embrace the simplicity and charm of countryside living.
@@ -53,7 +53,7 @@ const Travel = () => {
             <img
               src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618040/IMG-20241115-WA0062_hhflmy.jpg"
               alt="Frame 3"
-              className="absolute -bottom-12 -right-12 h-[450px] w-[316px]  object-cover rounded-full "
+              className="absolute -bottom-12 -right-6 h-[450px] w-[316px]  object-cover rounded-full "
             />
           </div>
         </div>

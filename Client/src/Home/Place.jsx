@@ -16,13 +16,13 @@ const Place = () => {
       <img src={Group2} alt="Background Element 2" className="absolute bottom-0 right-0 w-1/3 opacity-30" />
 
       {/* Content */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
+      <div className="relative mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <h2 className="text-5xl -mt-6 font-bold text-center text-gray-800 mb-12">
           Beautiful Places Around The World
         </h2>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-1 bg-black md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1  md:grid-cols-4 gap-4">
           {/* First Column (One image) */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
             <img src="https://res.cloudinary.com/ddd3v2fgn/image/upload/v1731618012/IMG-20241115-WA0036_mm0vrt.jpg" alt="Place 1" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" />
