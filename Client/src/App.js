@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Home from './Home/Home';
 import HomePage from './Pages/HomePage';
 import Navbar from './Components/Navbar/Navbar';
-
+import BookingPage from './Pages/BookingPage';
 
 const Destination = () => <h1>Destination Page</h1>;
 const Packages = () => <h1>Packages Page</h1>;
@@ -23,6 +23,8 @@ function App() {
         <Route path="/packages" element={<Packages />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/booking/:tripId" element={<BookingPage />} />
+
       </Routes>
     </div>
   );
