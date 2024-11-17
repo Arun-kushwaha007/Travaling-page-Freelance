@@ -14,7 +14,7 @@ const Explore = () => {
       console.log("Fetching trips...");
       try {
         const response = await fetch(
-          "http://165.22.209.39:5000/api/v1/all_trips/"
+          "https://gaonjourney.com/api/v1/all_trips/"
         );
         console.log("Response received:", response);
 

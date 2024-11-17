@@ -17,7 +17,7 @@ const BookingPage = () => {
     const fetchTripData = async () => {
       try {
         const response = await fetch(
-          `http://165.22.209.39:5000/api/v1/trips/${tripId}`
+          `https://gaonjourney.com/api/v1/trips/${tripId}`
         );
         if (!response.ok) {
           throw new Error('Failed to fetch trip data');
