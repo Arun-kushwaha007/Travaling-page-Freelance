@@ -44,6 +44,9 @@ const BookingPage = () => {
         <p>Loading trip details...</p>
       )}
       <FooterMainSection />
+      <div className="text-center mt-8 text-gray-500 text-sm">
+        <p>© 2024 Gao Journey. All rights reserved</p>
+      </div>
     </div>
   );
 };
