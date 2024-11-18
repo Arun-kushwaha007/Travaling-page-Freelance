@@ -4,7 +4,7 @@ import Vector from '../../Assets/Vector.png';
 
 const Booking = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md max-w-5xl mx-auto p-6 flex flex-col md:flex-row gap-8">
+    <div className="bg-white rounded-lg shadow-md max-w-5xl mx-auto p-6 flex flex-col md:flex-row gap-8 my-16">
       {/* Left Image Section */}
       <div className="w-full md:w-1/2">
         <img
