@@ -83,13 +83,13 @@ export const FooterMainSection = () => {
 
       {/* Popular Destinations */}
       <div>
-        <h3 className="font-bold text-black">Popular Destinations</h3>
+        <h3 className="font-bold text-black">Our Socials</h3>
         <ul className="space-y-2">
-          <li><a href="#" className="hover:underline">Rajasthan</a></li>
-          <li><a href="#" className="hover:underline">Himachal Pradesh</a></li>
-          <li><a href="#" className="hover:underline">Kerala</a></li>
-          <li><a href="#" className="hover:underline">Tamil Nadu</a></li>
-          <li><a href="#" className="hover:underline">Goa</a></li>
+          <li><a href="https://www.instagram.com/gaon_journey/" className="hover:underline">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/gaon-journey/" className="hover:underline">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/gaonjourney/" className="hover:underline">Facebook</a></li>
+          <li><a href="https://x.com/GaonJourney/" className="hover:underline">Twitter(X)</a></li>
+          <li><a href="https://wa.me/918949418043" className="hover:underline">WhatsApp</a></li>
         </ul>
       </div>
 
@@ -98,13 +98,13 @@ export const FooterMainSection = () => {
         <h3 className="font-bold text-black">Contact Us</h3>
         <ul className="space-y-2">
           <li className="flex items-center space-x-2">
-            <span>+91 8547126548</span>
+            <span>+91 89494 18043</span>
           </li>
           <li className="flex items-center space-x-2">
-            <span>sample@gmail.com</span>
+            <span>contact@gaonjourney.com</span>
           </li>
           <li className="flex items-center space-x-2">
-            <span>123 Travel Street, Adventure City, 98765</span>
+            <span>Jaipur, Rajasthan</span>
           </li>
         </ul>
       </div>

@@ -5,7 +5,7 @@ const Booking = () => {
 
   useEffect(() => {
     // Fetch trip data from the API
-    fetch("http://165.22.209.39:5000/api/v1/all_trips/")
+    fetch("https://gaonjourney.com/api/v1/all_trips/")
       .then((response) => response.json())
       .then((data) => {
         setTripData(data[0]); // Fetch the first trip for simplicity
