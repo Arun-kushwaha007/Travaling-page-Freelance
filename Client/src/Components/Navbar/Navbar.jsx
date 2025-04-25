@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="text-3xl font-bold" style={{ color: '#9F5A3F' }}>
-            <Link to="/">Tripify</Link>
+            <Link to="/">Gaon Journey</Link>
           </div>
 
           {/* Routes */}
